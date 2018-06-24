@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oztaking.www.jsonparse.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnParseString"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_0_JsonStr2JSONbject"/>
+
+            <Button
+                android:id="@+id/btnParseJSONOject2JsonStr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_1_JSONbject2JsonStr"/>
+
+            <Button
+                android:id="@+id/btnParseJSONArray2JSONObject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_2_JSONArray2JSONObject"/>
+
+            <Button
+                android:id="@+id/btnparseJSONArrayDoc2JSONOString"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_3_JSONArrayDoc2JSONOString"/>
+
+            <Button
+                android:id="@+id/btnparseComplexJSONDoc2JSONObject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_4_ComplexJSONDoc2JSONObject"/>
+
+
+            <Button
+                android:id="@+id/btnparseComplexJSONDoc2JSONString"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_5_ComplexJSONDoc2JSONString"/>
+
+            <Button
+                android:id="@+id/btnparseJSONStrToJavaBean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_6_JSONStrToJavaBean"/>
+
+            <Button
+                android:id="@+id/btnparseJSONArrayToJavaBean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_7_JSONArrayToJavaBean"/>
+
+            <Button
+                android:id="@+id/btnparseJavaBeanList2JSONArrayString"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_8_JavaBeanList2JSONArrayString"/>
+
+            <Button
+                android:id="@+id/btnparseComplexJsonDoc2JavaBean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_9_ComplexJsonDoc2JavaBean"/>
+
+            <Button
+                android:id="@+id/btnparseJavaBean2ComplexJsonDoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_10_JavaBean2ComplexJsonDoc"/>
+
+            <Button
+                android:id="@+id/btnparseJavaBeanString2JSONObject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_11_JavaBeanString2JSONObject"/>
+
+
+            <Button
+                android:id="@+id/btnparseJavaBeanArray2JSONObject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_12_JavaBeanArray2JSONObject"/>
+
+
+            <Button
+                android:id="@+id/btnparseComplexJavaBean2JSONOject"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_13_ComplexJavaBean2JSONOject"/>
+
+
+            <Button
+                android:id="@+id/btnparseComplexJsonObj2JavaBeanObj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Parse_14_ComplexJsonObj2JavaBeanObj"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

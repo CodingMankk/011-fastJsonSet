@@ -1,0 +1,18 @@
+{
+  "teacherName": "crystall",
+  "teacherAge": 27,
+  "course": {
+    "courseName": "english",
+    "code": 1270
+  },
+  "students":
+      [{
+          "studentName": "lily",
+           "studentAge": 12
+      },
+        {
+           "studentName": "lucy",
+           "studentAge": 15
+      }
+  ]
+}
